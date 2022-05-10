@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 222, 222);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.left-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vh;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color: blue;
+}
+p{
+    margin-top: 1vh;
+}
+.form{
+    border-radius: 1rem;
+    border-color: white;
+    background-color: white;
+    box-shadow: 2px 2px white;
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20vh;
+    padding: 20px;
+
+}
+input[type=text]{
+    height: 5vh;
+    padding: 10px;
+}
+
+input:hover{
+    background-color: pink;
+}
+
+input[type=password]{
+    height: 5vh;
+    padding: 10px;
+}
+
+button[type=button]{
+    height: 5vh;
+    padding: 10px;
+    background-color: blue;
+    border-radius:0.5rem;
+    border-color: blue;
+}
+button:hover{
+    background-color: pink;
+}
+
+a{
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: orange;
+}
+
+
+h6{
+    text-align: center;
+    margin-top: -1vh;
+}
+
+#first-line{
+    width: 8vw;
+    
+}
+
+
+#second-line{
+    margin-left: 30vh;
+    margin-top: -1vh;
+    width: 8vw;
+}
+
+#submit{
+    margin-top: 6vh;
+    background-color: rgb(13, 83, 13);
+    color: white;
+    border-color: rgb(13, 83, 13);
+    width: 25vh ;
+    margin-left: 65px;
+}
+
+#submit:hover{
+    background-color: pink;
+}
+
+h4{
+    float: right;
+    margin-right: 12vw;
+    margin-top: 2vh;
+}
+span{
+    color: rgb(189, 19, 47);
+}
+span:hover{
+    color: black;
+}
+
+@media (max-width:650px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form{
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .left-text{
+        margin-left: 5vw;
+    }
+
+    h4{
+        margin-left: 5vw;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
